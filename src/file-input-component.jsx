@@ -86,7 +86,7 @@ function FileInputType({ photo, setThumbnail }) {
       ) : (
         <div className="flex flex-col gap-2 align-middle justify-center">
           <div className="bg-Neutral500/50 p-2 rounded-lg flex align-middle justify-center mx-25">
-            <img src="/public/images/icon-upload.svg" alt="upload-icon" />
+            <img src="./images/icon-upload.svg" alt="upload-icon" />
           </div>
           <p className="text-Neutral300">Drag & drop or click to upload</p>
         </div>

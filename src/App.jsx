@@ -52,7 +52,7 @@ function App() {
       />
 
       <h1 className=" flex justify-center mt-10">
-        <img src="/images/logo-full.svg" alt="logo" />
+        <img src="./images/logo-full.svg" alt="logo" />
       </h1>
       {!isApproved && (
         <div className="z-2 mx-4 md:mx-40 lg:mx-70">
