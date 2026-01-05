@@ -28,26 +28,26 @@ function App() {
     >
       <img
         className="absolute top-0 left-4 overflow-hidden"
-        src="/public/images/pattern-lines.svg"
+        src="./images/pattern-lines.svg"
         alt="lines"
       />
       <img
         className="absolute bottom-50 right-4 w-30 overflow-hidden"
-        src="/public/images/pattern-circle.svg"
+        src="./images/pattern-circle.svg"
         alt="circles"
       />
       <img
         className="absolute bottom-0 left-4 w-50 overflow-hidden"
         src={
           isMobile
-            ? "/public/images/pattern-squiggly-line-bottom-mobile-tablet.svg"
-            : "/public/images/pattern-squiggly-line-bottom-desktop.svg"
+            ? "./images/pattern-squiggly-line-bottom-mobile-tablet.svg"
+            : "./images/pattern-squiggly-line-bottom-desktop.svg"
         }
         alt="squiggly"
       />
       <img
         className="absolute top-5 right-4 w-40 overflow-hidden"
-        src="/public/images/pattern-squiggly-line-top.svg"
+        src="./images/pattern-squiggly-line-top.svg"
         alt="squiggly"
       />
 
@@ -75,7 +75,7 @@ function App() {
             </label>
             <FileInputType setThumbnail={setThumbnail}/>
             <span className="flex gap-2 text-xs text-Neutral500">
-              <img src="/public/images/icon-info.svg" alt="icon-info" /> Upload
+              <img src="./images/icon-info.svg" alt="icon-info" /> Upload
               your photo (jpg/png max size: 500kb)
             </span>
 
@@ -131,10 +131,10 @@ function App() {
             in the run up to the event
           </p>
 
-          <div className="relative flex flex-col gap-15 bg-[url('/public/images/pattern-ticket.svg')] bg-no-repeat bg-cover p-4 ">
+          <div className="relative flex flex-col gap-15 bg-[url('./images/pattern-ticket.svg')] bg-no-repeat bg-cover p-4 ">
             <p className="absolute right-0 top-20 rotate-90 text-Neutral500 text-2xl font-semibold">#01609</p>
             <div className="flex gap-5 items-stretch">
-              <img className="" src="/public/images/logo-mark.svg" alt="" />
+              <img className="" src="./images/logo-mark.svg" alt="" />
               <div>
                 <p className="mb-2 text-Neutral300 font-bold text-2xl">Coding Conf</p>
                 <p className="text-Neutral500 font-semibold">Jan 31 2025 / Austin, Tx</p>
@@ -145,7 +145,7 @@ function App() {
               <div className="self-end">
                 <p className="text-Neutral300 font-semibold text-lg capitalize">{user.fullName}</p>
                 <p className="flex gap-2">
-                  <img src="/public/images/icon-github.svg" alt="github" />
+                  <img src="./images/icon-github.svg" alt="github" />
                   <p className="text-Neutral500 font-semibold">@{user.Github}</p>
                 </p>
               </div>
