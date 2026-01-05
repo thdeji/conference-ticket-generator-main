@@ -12,4 +12,5 @@ export default defineConfig({
     }),
     tailwincss(),
   ],
+  base: "/conference-ticket-generator-main/"
 });
